@@ -12,7 +12,7 @@ NAME=	launch_server
 
 all:	$(OBJ)
 	@echo "$(BUILDING)"
-	$(CXX) -o $(NAME) $(OBJ) $(CXXFLAG) -I ../../include
+	$(CXX) -o $(NAME) $(OBJ) $(CXXFLAG) -I include
 	cp $(NAME) ../../
 
 clean:
